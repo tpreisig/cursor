@@ -4,10 +4,13 @@ import CursorPos from './components/CursorPos';
 
 function App() {
   return (
-    <div className="App">
-      useEffect
-      <CursorPos />
+    <div className='app-container'>
+      <div className="App">
+        useEffect
+        <CursorPos />
+      </div>
     </div>
+
   );
 }
 
