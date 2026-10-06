@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const CursorPos = (): React.JSX.Element => {
+const Cursor = (): React.JSX.Element => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
     useEffect(() => {
         const eventHandler = (e: PointerEvent) => {
@@ -35,4 +35,4 @@ const CursorPos = (): React.JSX.Element => {
     )
 }
 
-export default CursorPos
+export default Cursor
