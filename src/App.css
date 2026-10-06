@@ -1,36 +1,25 @@
-.app-container {
-  width: 65%;
-  min-width: 500px;
-  margin: 20vh auto;
-  display: flex;
-  justify-content: center;
-  /* border: 2px solid white; */
-}
-
 .App {
-  min-width: 60%;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 40px;
+  background: linear-gradient(25deg, springgreen, deeppink);
+  width: 70%;
+  margin: 10vh auto;
   text-align: center;
-  background-image: 
-    linear-gradient(to top, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
-    linear-gradient(to right, rgba(255, 255, 255, 0.5) 1px, transparent 1px);
-  background-position: center;
-  background-size: 12px 12px;
-  box-shadow: 0 5px 10px rgba(255,255,255,0.8);
-  color: rebeccapurple;
+  padding: 20px;
   font-size: 2rem;
-  border: 2px solid transparent;
-  transition: 0.1s ease-in;
-  border-radius: 8px;
-  cursor: none;
-  transition: all 0.5s ease-in-out;
+  color: white;
 }
-.app-container:hover .App {
-  border-color: rgba(102, 51, 153, 0.5);
-  box-shadow: none;
-  text-shadow: 1px 0 0 rgba(255,255,255,0.9);
-  width: 90%;
+
+.App section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.App section button{
+  padding: 12px 20px;
+  max-width: 100px;
 }

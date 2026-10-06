@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import CursorPos from './components/CursorPos';
+import Cursor from './components/Cursor';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className='app-container'>
       <div className="App">
-        useEffect
-        <CursorPos />
+        <Cursor />
+        <Counter />
       </div>
     </div>
 
